@@ -11,6 +11,7 @@ const tick = function () {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
+    weekday: "long"
   }).format(now);
 };
 tick();
